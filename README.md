@@ -7,3 +7,10 @@ PLEASE PLEASE PLEASE before opening issues:
 - And for this specific branch, [read this as well](https://localjoost.github.io/Upgrading-reading-and-positioning-QR-codes-with-HoloLens-2-to-Unity-2020-+-OpenXR-plugin/)
 
 It works. It _really_ works. All of it. 
+
+# How to add a MultiQRCode?
+
+1) Create a new ReferenceQRTextLibrary in project space
+2) Add QR text target and prefab object to ReferenceQRTextLibrary
+3) Add ReferenceQRTextLibrary to MultiQRTrackerController on the MultiQRCodeTracker on scene MultiQRTrackingExample
+4) Build MRTK
